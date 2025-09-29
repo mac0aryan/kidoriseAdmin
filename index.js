@@ -13,7 +13,8 @@ const corsOptions = {
     'http://localhost:3001',
     'https://8nckg438-3001.inc1.devtunnels.ms',
     'https://8nckg438-3000.inc1.devtunnels.ms',
-    'https://kidorise.in'
+    'https://kidorise.in',
+    'https://admin.kidorise.in'
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
