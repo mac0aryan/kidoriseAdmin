@@ -29,7 +29,8 @@ router.post('/', async (req, res) => {
         res
             .status(200)
             .cookie('jwtoken', token, {
-                sameSite: "strict",
+                secure: true,
+                sameSite: "none",
                 path: '/',
                 expires: new Date(new Date().getTime() + 24 * 60 * 60 * 1000),
                 httpOnly: true,
