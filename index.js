@@ -27,7 +27,7 @@ app.use(cookieParser());
 
 dbConnect();
 // productToCollection();
-// createAdmin()
+createAdmin()
 
 //Api's
 app.get('/', (req,res)=>{
